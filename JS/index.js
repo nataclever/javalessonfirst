@@ -37,18 +37,15 @@
 //var result = Math.sqrt(25);
 //document.write(result);
 
-function sqrt(a) 
-{
-    var result = Math.sqrt (a);
-    return function (number) 
-    {
-        return Math.sqrt (a) ;
-        } 
-    }
-    
-    
-//{
-  //   var result = Math.sqrt(a);
-    // return result;
-//}
-//Math.sqrt(5);
+var number = Number(prompt('Input number'));
+var sqrt = fsqrt(number);
+var text = 'Rote of your number: ';
+var result = text + sqrt;
+document.write(result);
+
+function fsqrt(a) {
+var result = Math.sqrt(a);
+      return result ;
+         }
+         
+         
