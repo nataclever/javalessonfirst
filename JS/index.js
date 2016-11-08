@@ -28,5 +28,27 @@
 // var result = tellAge(age);
 // document.write(result);
 
-result = Math.sqrt(25);
-document.write(result);
+
+
+//var root = Number(prompt('tell number'));
+//var root = a;
+//var text = 'Result';
+
+//var result = Math.sqrt(25);
+//document.write(result);
+
+function sqrt(a) 
+{
+    var result = Math.sqrt (a);
+    return function (number) 
+    {
+        return Math.sqrt (a) ;
+        } 
+    }
+    
+    
+//{
+  //   var result = Math.sqrt(a);
+    // return result;
+//}
+//Math.sqrt(5);
