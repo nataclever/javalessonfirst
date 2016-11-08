@@ -8,7 +8,7 @@ var text = 'Your magic number: ';
 var result = text + sum;
 document.write(result);
 
- function sumArgs(a, b, c) {
+function sumArgs(a, b, c) {
      var result = a + b + c;
      return result;
-}
+} 

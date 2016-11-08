@@ -1,4 +1,4 @@
-//alert('Hello!');
+/*alert('Hello!');
 //console.log('Hello!');
 //document.write('Hello!');
 
@@ -35,7 +35,7 @@
 //var text = 'Result';
 
 //var result = Math.sqrt(25);
-//document.write(result);
+//document.write(result); */
 
 var number = Number(prompt('Input number'));
 var sqrt = fsqrt(number);
