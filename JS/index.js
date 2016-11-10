@@ -38,14 +38,18 @@
 //document.write(result); */
 
 var number = Number(prompt('Input number'));
-var sqrt = fsqrt(number);
-var text = 'Rote of your number: ';
-var result = text + sqrt;
-document.write(result);
+var number2 = Number(prompt('imput number2'));
+var number3 = Number(prompt('imput number3'));
 
-function fsqrt(a) {
-var result = Math.sqrt(a);
-      return result ;
-         }
+var x1 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+var x2 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+var textx1 = ('Your number x1:');
+var textx2 = ('___Your number x2:');
+var result = textx1 + x1;
+var results = textx2 + x2;
+
+document.write(result);
+document.write(results);
+
          
          
